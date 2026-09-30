@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { font-family: "Noto Sans", system-ui, sans-serif; }
+.card { @apply bg-white rounded-xl border border-sky-100 shadow-sm p-4; }
+.btn { @apply rounded-lg bg-sky-700 text-white px-4 py-2 font-semibold hover:bg-sky-800 focus:outline-none focus:ring-2 focus:ring-sky-400 disabled:opacity-50; }
+.input { @apply w-full rounded-lg border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-sky-400; }
